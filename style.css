@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(pictures/bg\ image.png);
+    background-repeat: no-repeat;
+    background-size: 130rem;
+    overflow-x: hidden;
+    width: 100vw;
+    line-height: 1.1;
+    font-size: 1.7rem;
+}
+
+/* navbar*/
+
+.text-primary {
+    color: rgb(222, 223, 224);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+ }
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#navbar a {
+    color: rgb(222, 223, 224);
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 1.3rem;
+    margin: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(87, 84, 84);
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+
+
+/* header*/
+
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(222, 223, 224);
+    height: 93vh;
+}
+
+.container {
+    max-width: 110rem;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+
+}
+
+
+.btn {
+    background-color: #333;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    background-color: rgb(87, 84, 84);
+}
+
+
+.btn {
+    margin-top: 3rem;
+    padding: 1.3rem 3rem;
+    font-size: 2rem;
+    color: rgb(222, 223, 224);
+}
+
+.header h1 {
+    font-size: 6rem;
+   text-transform: uppercase;
+}
+
+.btn a {
+    color: rgb(222, 223, 224);
+}
+
+/*---main---*/
+
+#main {
+    background-color: #a39a9a;
+   
+    
+}
+
+#main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main .m-heading {
+    padding: 2rem;
+}
+
+#main .w-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+   
+}
+
+#main .container .pra {
+    font-size: 2rem;
+}
+
+/*---cources information---*/
+
+#info  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 47, 47);
+    color: rgb(237, 237, 238);
+}
+
+#info .m-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+#info .w-heading {
+    padding: 1rem;
+    text-decoration: underline;
+    font-size: 2.5rem;
+} 
+
+#info .pra {
+    padding: 1rem;
+} 
+
+
+#info .pra .bold {
+    font-weight: bold;
+}
+
+/*---contact us--*/
+
+#contact {
+    display: flex;
+    background-color: #a39a9a;
+}
+
+#contact .m-heading {
+    padding: 1rem;
+}
+
+#contact .pra {
+    padding-bottom: 1rem;
+}
+
+.map .m-heading {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+
+#contact .container {
+    height: 49rem;
+    width: 80rem;
+    display: flex;
+    justify-content: center;
+}
+
+#contact .container .m-heading{
+    text-decoration: underline;
+}
+
+/*---footer--*/
+
+#footer .copy {
+padding: 2rem;display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: rgb(171, 181, 192);
+}
+
+
+
+
+
+

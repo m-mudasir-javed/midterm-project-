@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+        body{
+            background-image: url(pictures/bg\ image.png);
+            background-size: cover;
+            background-position: center; 
+            background-repeat: no-repeat;
+            height: 100vh; 
+            margin: 0;
+            line-height: 1.1;
+            font-size: 1.7rem;
+        }        
+        #hh {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 93vh;
+        } 
+
+        #hh h1 {
+            font-size: 5rem;
+        }
+
+        #hh .btn {
+            padding: 1.5rem;
+            border-radius: 0.7rem;
+           background-color: #333;
+        }
+
+        #hh .btn a {
+            text-decoration: none;
+            color: rgb(208, 209, 211);
+        }
+
+        #hh .btn:hover {
+            background-color: rgb(87, 84, 84);
+            cursor: pointer;
+
+        }
+
+    @media (max-width:500px) {
+        body,html{
+        font-size: 16px;
+        width: 700px;
+
+    }
+
+    body{
+        background-size: 700px 900px;
+        font-size: 16px;
+    }
+
+    #hh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+    }
+
+    #hh h1 {
+        font-size: 30px;
+    }
+
+    #hh .btn {
+        padding: 8px 3px;
+        border-radius: 3px;
+    }
+
+    #hh a {
+        font-size: 11px;
+    }
+
+}
+
+         
+           
+        
+    </style>
+    <title>end page</title>
+</head>
+<body>
+    <div id="hh">
+    <h1>Your Information Is Submitted Succesfully</h1>
+    <br>
+    <button class="btn"><a href="index.html">Back To Home Page</a></button></div>
+</body>
+</html>

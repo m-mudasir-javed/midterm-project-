@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body{
+            background-image: url(pictures/bg\ image.png);
+            background-size: cover ; /* image ko full body par lagane ke liye */
+  background-position: center; /* image ko center mein rakhne ke liye */
+  background-repeat: no-repeat; /* image ko repeat na hone dein */
+  height: 900px; /* body ki height full viewport height par set karne ke liye */
+  margin: 0;
+            line-height: 1.1;
+            font-size: 1.7rem;
+        }
+
+        .text-primary {
+    color: rgb(222, 223, 224);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+ }
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#navbar a {
+    color: rgb(222, 223, 224);
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(87, 84, 84);
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+        .container {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+           width: 40rem;
+           height: 40rem;
+           margin: 15rem auto 0px auto;
+        }
+
+        .container .reg label {
+            padding: 1rem;
+        }
+
+        .container .reg input {
+            padding: 1rem;
+        }
+
+        .container .reg p {
+            padding: 1rem;
+        }
+
+        #gender :last-child{
+            padding-bottom: 1rem;
+        }
+
+        h2{
+            text-align: center;
+            padding: 2rem;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+
+        .reg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(0, 0, 0, 0.5);
+            width: 100%;
+            font-size: 1.8rem;
+            border-radius: 1rem;
+            font-weight: bold;
+            color: #fff;
+           
+        }
+        
+        input {
+            width: 30rem;
+            height: 3rem;
+            border-radius: 0.8rem;
+        }
+       #gender {
+        height: 2rem;
+       }
+
+       .btn {
+        margin: 1rem 0rem 2rem 0rem ;
+        padding: .5rem 1rem 1.5rem 1rem;
+        height: 3rem;
+        width: 8rem;
+        color: #fff;
+        background-color: #333;
+       }
+
+       .btn:hover {
+    background-color: rgb(87, 84, 84);
+    cursor: pointer;
+       }
+
+@media (max-width:500px) {
+    body,html{
+        font-size: 16px;
+        width: 700px;
+
+    }
+
+    body{
+        background-size: 700px 900px;
+        font-size: 16px;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        height: 48px;
+    }
+
+    #navbar .text-primary{
+        font-size: 16px;
+        padding: 5px;
+
+    }
+
+    #navbar ul li a {
+        font-size: 13px;
+        padding: 5px;
+        width: 6px;
+    }
+
+    .container .reg h2 {
+        font-size: 25px;
+        padding: 14px;
+        }
+
+    .container .reg label {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .container .reg input {
+        width: 230px;
+        height: 25px;
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    .container .reg p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+   
+    a .btn{
+
+         font-size: 13px;
+        padding: 0px;
+        border-radius: 3px;
+        width: 70px;
+        height: 25px;
+    }
+
+    .container .reg #gender {
+        height: 15px;
+        padding: 10px;
+    }
+
+    .container {
+        width: 370px;
+        height: 270px;
+        margin: 140px 150px ;
+    }
+
+
+
+
+    
+}
+    </style>
+
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <h1 class="text-primary">Bano Qabil</h1>
+        <ul >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#main">About us</a></li>
+            <li><a href="#info">Cources Info.</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="reg">
+
+            <h2>Register Here </h2>
+            
+           
+            <label id="user name" > Name</label>
+            
+            <input for="Username" type="text" id="username" placeholder="  Enter your name">
+
+            
+
+            <label id="u-name" > Username</label>
+
+           
+
+            <input for="Username" type="text" id="username" placeholder=" Enter your User name">
+
+           
+               
+                <label id="e-name" > Email address</label>
+
+                
+
+                <input for="email" type="email" id="email" placeholder="  Enter your Email address">
+                
+               
+            
+                <label id="p-name" > Phone number</label>
+                
+                <input for="number" type="number" id="number" placeholder="  Number">
+                
+               
+            
+                <label id="g-name" >Gender</label>
+                
+               <p> Male</p>
+                
+                <input for="Username" type="radio" id="gender"  name="radio-group">
+               
+                <p>Female</p>
+                
+                <input for="Username" type="radio" id="gender"  name="radio-group">
+                
+                
+
+            <a href="th.html"><button class="btn">Submit</button></a>
+    </div>
+    </div>
+</body>
+</html>

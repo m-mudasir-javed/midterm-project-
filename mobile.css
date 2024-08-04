@@ -1,0 +1,114 @@
+@media (max-width: 500px) {
+    body,html{
+        font-size: 16px;
+        width: 700px;
+    }
+
+    body{
+        background-size: 700px;
+        font-size: 16px;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    #navbar .text-primary{
+        font-size: 16px;
+
+    }
+
+    #navbar ul li a {
+        font-size: 13px;
+        padding: 5px;
+        width: 6px;
+    }
+    
+    .header .container .content .text{
+        font-size: 25px;
+        line-height: 1.3em;
+    }
+    
+    .header .container .content .btn{
+        font-size: 13px;
+        padding: 7px;
+        border-radius: 3px;
+    }
+
+    #main .container .m-heading {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    #main .container .w-heading {
+        font-size: 17px;
+        padding: 5px;
+    }
+
+
+    #main .container .pra {
+        font-size: 11px;
+        padding: 5px;
+    }
+
+    #main .container {
+        padding: 10px 16px 10px 16px;
+    }
+    
+
+
+    #info .container {
+        padding: 30px;
+    }
+
+    #info .container .m-heading {
+        font-size: 25px;
+        padding: 5px;
+        margin: 16px;
+    }
+
+    #info .container .w-heading {
+        font-size: 17px;
+        padding: 5px;
+    }
+
+
+    #contact .container .m-heading {
+        font-size: 25px;
+        padding: 5px 5px 10px 5px;
+        
+    }
+
+    #contact .container {
+        width: 40rem;
+        height: 20rem;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    #contact .map .m-heading {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    #contact .maps iframe {
+       width: 360px;
+       height: 350px;
+    }
+
+    #footer .copy {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+}
